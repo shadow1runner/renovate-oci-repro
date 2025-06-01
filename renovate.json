@@ -3,5 +3,12 @@
     "extends": [
         "config:best-practices",
         ":rebaseStalePrs"
+    ],
+    "packageRules": [
+        {
+            "matchManagers": ["kustomize"],
+            "matchDepTypes": ["OCIChart"],
+            "pinDigests": false
+        }
     ]
 }
