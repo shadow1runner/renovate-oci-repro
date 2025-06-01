@@ -4,11 +4,7 @@
         "config:best-practices",
         ":rebaseStalePrs"
     ],
-    "packageRules": [
-        {
-            "matchManagers": ["kustomize"],
-            "matchDepTypes": ["OCIChart"],
-            "pinDigests": false
-        }
-    ]
+    "kustomize": {
+        "pinDigests": false
+    }
 }
