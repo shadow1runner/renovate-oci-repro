@@ -4,6 +4,6 @@
         "config:recommended"
     ],
     "kustomize": {
-        "pinDigests": false
+        "pinDigests": true
     }
 }
